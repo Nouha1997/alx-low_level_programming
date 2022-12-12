@@ -1,21 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Prints alpha in lowercase
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char c;
+	char lc;
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
+	for (lc = 'a'; lc <= 'z'; lc++);
+	{
+		putchar(lc);
+	}
 	putchar('\n');
 	return (0);
-
 }
