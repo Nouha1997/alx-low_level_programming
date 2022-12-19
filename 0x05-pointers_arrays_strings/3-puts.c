@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * _puts - Prints a string followed by a new line.
  *
@@ -19,6 +20,7 @@ void _puts(char *str)
 		{
 			_putchar('\n');
 			break;
+
 		}
 		_putchar(str[count]);
 		count++;
