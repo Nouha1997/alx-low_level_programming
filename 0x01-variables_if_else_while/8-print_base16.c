@@ -1,23 +1,22 @@
 #include <stdio.h>
-
 /**
- * main - prints the numbers in base 16
+ * main - Entry point
  *
- * Return: Always 0
+ * Return: always 0
  */
-
 int main(void)
 {
-	int num;
-	char le;
+	char c;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+	}
 
-	for (la = 'a'; la <= 'f'; la++)
-		putchar(la);
-
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
-
 	return (0);
 }
